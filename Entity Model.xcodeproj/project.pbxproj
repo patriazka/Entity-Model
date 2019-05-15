@@ -12,6 +12,9 @@
 		5D3958F5228BE755008735F3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3958F3228BE755008735F3 /* Main.storyboard */; };
 		5D3958F7228BE756008735F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5D3958F6228BE756008735F3 /* Assets.xcassets */; };
 		5D3958FA228BE756008735F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5D3958F8228BE756008735F3 /* LaunchScreen.storyboard */; };
+		5D395902228BE7D1008735F3 /* Entity1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D395901228BE7D1008735F3 /* Entity1.swift */; };
+		5D395906228C0344008735F3 /* Machine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D395905228C0344008735F3 /* Machine.swift */; };
+		5D395908228C0593008735F3 /* RoundButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D395907228C0593008735F3 /* RoundButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +25,9 @@
 		5D3958F6228BE756008735F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5D3958F9228BE756008735F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5D3958FB228BE756008735F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5D395901228BE7D1008735F3 /* Entity1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Entity1.swift; sourceTree = "<group>"; };
+		5D395905228C0344008735F3 /* Machine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Machine.swift; sourceTree = "<group>"; };
+		5D395907228C0593008735F3 /* RoundButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +60,9 @@
 		5D3958EE228BE755008735F3 /* Entity Model */ = {
 			isa = PBXGroup;
 			children = (
+				5D395901228BE7D1008735F3 /* Entity1.swift */,
+				5D395907228C0593008735F3 /* RoundButton.swift */,
+				5D395905228C0344008735F3 /* Machine.swift */,
 				5D3958EF228BE755008735F3 /* AppDelegate.swift */,
 				5D3958F1228BE755008735F3 /* ViewController.swift */,
 				5D3958F3228BE755008735F3 /* Main.storyboard */,
@@ -136,6 +145,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				5D3958F2228BE755008735F3 /* ViewController.swift in Sources */,
+				5D395908228C0593008735F3 /* RoundButton.swift in Sources */,
+				5D395906228C0344008735F3 /* Machine.swift in Sources */,
+				5D395902228BE7D1008735F3 /* Entity1.swift in Sources */,
 				5D3958F0228BE755008735F3 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
